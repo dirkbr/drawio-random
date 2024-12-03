@@ -1,34 +1,59 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.1">
   <diagram name="Page-1" id="3-QvNLFravKIU6IbbIXV">
-    <mxGraphModel>
+    <mxGraphModel dx="805" dy="517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Network B" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="481" y="8" width="289" height="317" as="geometry" />
+        <mxCell id="kNh_vebk6bDyeSP4rpFJ-39" value="&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="150" width="300" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Network A" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="8" y="8" width="289" height="218" as="geometry" />
+        <mxCell id="kNh_vebk6bDyeSP4rpFJ-37" value="&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="250" width="300" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Storage Server" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="69" y="43" width="168" height="49" as="geometry" />
+        <mxCell id="kNh_vebk6bDyeSP4rpFJ-17" value="WG Gateway" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Wireguard VPN Gateway" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="33" y="142" width="239" height="49" as="geometry" />
+        <mxCell id="kNh_vebk6bDyeSP4rpFJ-18" value="&lt;div&gt;WG Gateway&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Storage Server" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="541" y="43" width="168" height="49" as="geometry" />
+        <mxCell id="kNh_vebk6bDyeSP4rpFJ-20" value="" style="sketch=0;verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;strokeColor=none;fillColor=#000000;align=center;outlineConnect=0;pointerEvents=1;shape=mxgraph.citrix2.tunnel;strokeWidth=1;perimeterSpacing=0;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+          <mxGeometry x="370" y="290" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="Wireguard VPN Gateway" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="506" y="142" width="239" height="49" as="geometry" />
+        <mxCell id="kNh_vebk6bDyeSP4rpFJ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kNh_vebk6bDyeSP4rpFJ-21" target="kNh_vebk6bDyeSP4rpFJ-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="SVN Server" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="553" y="241" width="144" height="49" as="geometry" />
+        <mxCell id="kNh_vebk6bDyeSP4rpFJ-21" value="Restic Server" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="Connects via VPN" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="5" target="7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="kNh_vebk6bDyeSP4rpFJ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="kNh_vebk6bDyeSP4rpFJ-22" target="kNh_vebk6bDyeSP4rpFJ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kNh_vebk6bDyeSP4rpFJ-22" value="Restic Server" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kNh_vebk6bDyeSP4rpFJ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="kNh_vebk6bDyeSP4rpFJ-23" target="kNh_vebk6bDyeSP4rpFJ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kNh_vebk6bDyeSP4rpFJ-23" value="&lt;div&gt;SVN Server&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kNh_vebk6bDyeSP4rpFJ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="kNh_vebk6bDyeSP4rpFJ-24" target="kNh_vebk6bDyeSP4rpFJ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kNh_vebk6bDyeSP4rpFJ-24" value="NAS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kNh_vebk6bDyeSP4rpFJ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="kNh_vebk6bDyeSP4rpFJ-25" target="kNh_vebk6bDyeSP4rpFJ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kNh_vebk6bDyeSP4rpFJ-25" value="NAS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kNh_vebk6bDyeSP4rpFJ-38" value="Homeserver" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="250" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kNh_vebk6bDyeSP4rpFJ-40" value="Raspi" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="150" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
