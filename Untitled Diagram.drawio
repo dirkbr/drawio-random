@@ -1,0 +1,36 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.1">
+  <diagram name="Page-1" id="OUkSRYwmZy_WlT9q6qph">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Network B" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="481" y="8" width="289" height="317" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Network A" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="8" y="8" width="289" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Storage Server" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="69" y="43" width="168" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Wireguard VPN Gateway" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="33" y="142" width="239" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Storage Server" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="541" y="43" width="168" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Wireguard VPN Gateway" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="506" y="142" width="239" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="SVN Server" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="553" y="241" width="144" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Connects via VPN" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="5" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
